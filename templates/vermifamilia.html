@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Remote style sheet -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    
+    <!-- Local style sheet relative to workspace folder -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-- Local style sheet relative to this file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Embedded style sheet -->
+    <style>
+        #content {
+            display: block;
+        }
+
+        .internal {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+Mi madre es : {{ver.1.nombre}} Apellido {{ver.1.apellido}} y tiene {{ver.1.edad}} años <br><br>
+Mis hermanos son : {{ver.2.nombre}} {{ver.2.apellido}} de {{ver.2.edad}} años y {{ver.3.nombre}} {{ver.3.apellido}} de {{ver.3.edad}} años<br><br>
+Mi padre es : {{ver.5.nombre}} su apellido es {{ver.5.apellido}} y tiene {{ver.5.edad}} años de edad<br><br>
+Mi esposo es : {{ver.7.nombre}} Apellido {{ver.7.apellido}} y tiene {{ver.7.edad}} años <br><br>
+
+</body>
+
+</html>
